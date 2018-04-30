@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Naruto</title>
+    <link rel="stylesheet" href="Caso.css">
+  </head>
+<body>
+<!-- checkbox hack FTW!!! -->
+<input type="radio" id="check_Imagens" name="check_menu_hack" checked></input>
+<input type="radio" id="check_Musicas" name="check_menu_hack"></input>
+<input type="radio" id="check_Videos" name="check_menu_hack"></input>
+   <img id="Logo" src="logol.jpg" alt="Imagem_de_cima" >
+<nav class="menu">
+    <ul>
+        <li><label id="label_IMAGENS" for="check_Imagens">IMAGENS</label></li>
+        <li><label for="check_Musicas">MUSICAS</label></li>
+        <li><label for="check_Videos">VIDEOS</label></li>
+    </ul>
+</nav>
+<!-- Aqui começa as div das Imagens -->
+<div id="Imagens" style="text-align:center">
+      <center><h1>Imagens wallpapers</h1></center>
+      <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="naruto2.jpg">
+              <img src="naruto2.jpg" alt="Naruto2">
+            </a>
+            <div class="desc">click na imagem para abrir</div>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="naruto1.png">
+              <img src="naruto1.png" alt="Naruto1">
+            </a>
+            <div class="desc">click na imagem para abrir</div>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="naruto3.jpg">
+              <img src="naruto3.jpg" alt="Naruto3">
+            </a>
+            <div class="desc">click na imagem para abrir</div>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="naruto4.jpg">
+              <img src="naruto4.jpg" alt="Naruto4">
+            </a>
+            <div class="desc">click na imagem para abrir</div>
+          </div>
+        </div>
+		<iframe width="560" height="315" src="naruto.png" frameborder="0" allowfullscreen="" style="margin-top:400px;"></iframe>
+	</div>
+
+	<!-- aQUI COMEÇA AS DIV DAS MUSICAS -->
+	<div id="MUSICAS" style="text-align:center;">
+	   <h1> Music - openings and endings Naruto </h1>
+	   <center>
+		<table class="Tabela">
+           <tr>
+            <th><center>Enumeração</center></th>
+            <th><center>Músicas</center></th>
+            </tr>
+            <tr>
+              <td>Music 1:</td>
+              <td><audio src="Strong_and_Strike.mp3" controls id="a1"></audio></td>
+            </tr>
+            <tr>
+              <td>Music 2:</td>
+              <td><audio src="01.-NARUTO-Ondo.mp3" controls id="a2"></audio></td>
+            </tr>
+            <tr>
+              <td>Music 3:</td>
+              <td><audio src="evening.mp3" controls id="a3"></audio></td>
+            </tr>
+            <tr>
+              <td>Music 4:</td>
+              <td><audio src="tumblr_lks9vscyXp1qhlan8o1.mp3" controls id="a4"></audio> </td>
+            </tr>
+        </table>
+	   </center>
+	</div>
+     <!--div dos videos -->
+     <div id="VIDEOS">
+       <center> 
+        <video class="video" src="Naruto Shippuden Ending 28.mp4" controls></video>
+        <video class="video" src="Naruto Shippuden Ending 34.mp4" controls></video>
+        <video class="video" src="Naruto shippuden ending 39.mp4" controls></video>
+        </center> 
+     </div>
+  </body>
+</html>
